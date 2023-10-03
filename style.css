@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+/*Sites para selecionar cores 
+    ColorHunt
+    AdobeColor
+    Coolors
+    Coolor Tool
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*- o height com o 100vh definine a altura máxima da minha tela limitada a 100% da página
+- o border box faz com que todos os elementos fiquem restritamente dentro do body*/
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.portifolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    
+}
+
+.portifolio__conteudo {
+    width: 550px;
+}
+
+.tittle {
+    color: antiquewhite;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 strong {
+    color: #2ff924;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao {
+    color: #f6f6f6;
+    font-size: 20px;
+    padding: 26px 0;
+}
+
+.portifolio__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.portifolio_links {
+    font-size: 25px;
+    background-color: #2ff924;
+    text-decoration: none;
+    border-radius: 16px;
+    text-align: center;
+    padding: 25px 0;
+    color: #000000;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+img {
+    width: 500px;
+    border-radius: 50px;
+}
